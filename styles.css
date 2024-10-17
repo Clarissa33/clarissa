@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ContenedorGeneral{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background: yellow;
+    margin: 20px 0;
+}
+header h1{
+    color: rgb(10, 10, 10);
+    padding: 20px 0;
+    text-align: center;
+}
+.main{
+    width: 70%;
+    background: aquamarine;
+    padding: 20px;
+    float: right;
+    box-sizing: border-box;
+}
+.main img{
+    width: 100%;
+    height: auto;
+}
+aside{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: violet;
+    float: left;
+}
+footer{
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: black;
+    color: pink;
+}
+@media screen and (max-width: 800px)
+{
+.main{width: 100%;}
+aside{width: 100%;}    
+}
